@@ -20,11 +20,12 @@ A seção deve conter:
 3. As implicações hermenêuticas dessas características para a leitura correta da perícope [PASSAGEM] — ou seja, o que muda na interpretação do texto por se tratar deste gênero específico.
 
 Requisitos de formato:
-- Baseie a seção em, no mínimo, 5 autores/obras diferentes das fontes disponíveis, distribuindo as citações entre eles — isso garante material suficiente para você remover manualmente um parágrafo ou um autor específico na revisão final, sem esvaziar a seção. Se as fontes carregadas não sustentarem tantas vozes diferentes para este tópico específico, utilize o máximo de autores distintos disponível e diga isso explicitamente.
-- Utilize majoritariamente citação indireta (paráfrase com nota de rodapé), mas inclua pelo menos 3 citações diretas (transcrição literal entre aspas) ao longo da seção, distribuídas em diferentes pontos do texto, para dar mais força argumentativa às afirmações centrais.
+- Baseie a seção em, no mínimo, 7 autores/obras diferentes das fontes disponíveis, distribuindo as citações entre eles — mais de um autor pode dizer coisas parecidas ou complementares, isso é desejável, pois dá mais opções para você escolher e remover manualmente na revisão final, sem esvaziar a seção. Se as fontes carregadas não sustentarem tantas vozes diferentes para este tópico específico, utilize o máximo de autores distintos disponível e diga isso explicitamente.
+- Utilize majoritariamente citação indireta (paráfrase com nota de rodapé), mas inclua pelo menos 4 citações diretas (transcrição literal entre aspas) ao longo da seção, distribuídas em diferentes pontos do texto, para dar mais força argumentativa às afirmações centrais.
+- Nomeie explicitamente o autor no corpo do texto (não apenas na nota de rodapé) sempre que atribuir uma afirmação a ele — use fórmulas como "Segundo [Autor]...", "[Autor] afirma que...", "Conforme [Autor]...". Ao citar o mesmo autor em frases seguidas, retome o nome dele (ex.: "[Autor] continua afirmando...") em vez de deixar a frase seguinte sem sujeito, apoiada só na nota de rodapé.
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT.
 - Inclua ao menos uma citação direta de um manual de hermenêutica (Fee ou Osborne, se disponíveis nas fontes) sobre os princípios de interpretação desse gênero.
-- Extensão aproximada: 3 a 5 parágrafos.
+- Extensão aproximada: 7 a 12 parágrafos.
 """
 
 ## Observações

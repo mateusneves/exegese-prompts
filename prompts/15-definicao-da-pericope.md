@@ -20,12 +20,11 @@ A seção deve conter:
 3. Uma nota, quando pertinente, sobre a opinião de diferentes comentaristas quanto aos limites dessa perícope, caso as fontes disponíveis divirjam entre si sobre onde ela começa ou termina, indicando qual delimitação foi adotada neste trabalho e por quê.
 
 Requisitos de formato:
-- Baseie a seção em, no mínimo, 5 autores/obras diferentes das fontes disponíveis, distribuindo as citações entre eles — isso garante material suficiente para você remover manualmente um parágrafo ou um autor específico na revisão final, sem esvaziar a seção. Se as fontes carregadas não sustentarem tantas vozes diferentes para este tópico específico, utilize o máximo de autores distintos disponível e diga isso explicitamente.
-- Utilize majoritariamente citação indireta (paráfrase com nota de rodapé), mas inclua pelo menos 3 citações diretas (transcrição literal entre aspas) ao longo da seção, distribuídas em diferentes pontos do texto, para dar mais força argumentativa às afirmações centrais.
+- Nomeie explicitamente o autor no corpo do texto (não apenas na nota de rodapé) sempre que atribuir uma afirmação a ele — use fórmulas como "Segundo [Autor]...", "[Autor] afirma que...", "Conforme [Autor]...". Ao citar o mesmo autor em frases seguidas, retome o nome dele (ex.: "[Autor] continua afirmando...") em vez de deixar a frase seguinte sem sujeito, apoiada só na nota de rodapé.
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT.
 - Cite os versículos específicos (imediatamente antes, a perícope, e imediatamente depois) ao longo da explicação.
-- Extensão aproximada: 2 a 3 parágrafos.
+- Extensão aproximada: 2 a 3 parágrafos. Esta seção é deliberadamente curta e técnica (não segue a regra geral de 7-12 parágrafos/7 autores/4 citações diretas do documento mestre) — não force diversidade de autores ou tamanho além do que a delimitação da perícope naturalmente exige.
 """
 
 ## Observações
-Gere esta seção em conjunto com "10-contexto-imediato" — as duas tratam de território muito próximo, mas esta é mais técnica (delimitação) enquanto aquela é mais narrativa (fluxo argumentativo).
+Gere esta seção em conjunto com "10-contexto-imediato" — as duas tratam de território muito próximo, mas esta é mais técnica (delimitação) enquanto aquela é mais narrativa (fluxo argumentativo). Assim como "23-mensagem-epoca-da-escrita" e "29-conclusao", esta é uma exceção proposital à regra geral de volume — é uma justificativa técnica pontual, não uma seção de síntese ampla.

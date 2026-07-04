@@ -22,8 +22,9 @@ Em seguida, escreva um comentário analítico, versículo por versículo, destac
 3. Uma avaliação, ao final, indicando quais versões você (redator do comentário) considera mais fiéis ao texto original nesta perícope específica, e quais apresentam problemas de tradução, com base na comparação feita.
 
 Requisitos de formato:
-- Além da comparação entre as versões, traga também, quando disponíveis nas fontes, opiniões de pelo menos 3 a 5 comentaristas ou autores diferentes sobre as escolhas de tradução mais relevantes da perícope — isso garante material suficiente para você remover manualmente uma observação específica na revisão final, sem esvaziar a seção. Se as fontes não trouxerem tantas vozes diferentes sobre tradução, utilize o máximo disponível e diga isso explicitamente.
-- Utilize majoritariamente citação indireta (paráfrase), mas inclua ao menos 3 citações diretas (transcrição literal entre aspas) de comentaristas ao longo da análise, quando as fontes permitirem.
+- Além da comparação entre as versões, traga também, quando disponíveis nas fontes, opiniões de pelo menos 5 a 7 comentaristas ou autores diferentes sobre as escolhas de tradução mais relevantes da perícope — mais de um autor pode opinar de forma parecida ou complementar, isso é desejável, pois dá mais opções para você escolher e remover manualmente na revisão final, sem esvaziar a seção. Se as fontes não trouxerem tantas vozes diferentes sobre tradução, utilize o máximo disponível e diga isso explicitamente.
+- Utilize majoritariamente citação indireta (paráfrase), mas inclua ao menos 4 citações diretas (transcrição literal entre aspas) de comentaristas ao longo da análise, quando as fontes permitirem.
+- Nomeie explicitamente o autor no corpo do texto (não apenas na nota de rodapé) sempre que atribuir uma opinião a ele — use fórmulas como "Segundo [Autor]...", "[Autor] afirma que...", "Conforme [Autor]...".
 - Redija a parte analítica em prosa acadêmica corrida, em português, terceira pessoa.
 - Organize a análise por número de versículo, com subtítulo "Versículo [número]" antes de cada bloco de comentário.
 - Ao final, inclua um parágrafo de síntese geral sobre a confiabilidade das versões analisadas para esta perícope.

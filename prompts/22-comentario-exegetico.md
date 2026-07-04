@@ -21,11 +21,12 @@ Para cada versículo (ou, quando um versículo for muito extenso, para cada fras
 4. Traga, quando pertinente, referências cruzadas a outros textos bíblicos que iluminem o versículo em análise, e observações lexicais (baseadas no léxico disponível) sobre termos-chave do original.
 
 Requisitos de formato:
-- Baseie a seção em, no mínimo, 5 autores/obras diferentes das fontes disponíveis, distribuindo as citações entre eles — isso garante material suficiente para você remover manualmente um parágrafo ou um autor específico na revisão final, sem esvaziar a seção. Se as fontes carregadas não sustentarem tantas vozes diferentes para este tópico específico, utilize o máximo de autores distintos disponível e diga isso explicitamente.
-- Utilize majoritariamente citação indireta (paráfrase com nota de rodapé), mas inclua pelo menos 3 citações diretas (transcrição literal entre aspas) ao longo da seção, distribuídas em diferentes pontos do texto, para dar mais força argumentativa às afirmações centrais.
+- Baseie a seção em, no mínimo, 7 autores/obras diferentes das fontes disponíveis, distribuindo as citações entre eles — mais de um autor pode dizer coisas parecidas ou complementares, isso é desejável, pois dá mais opções para você escolher e remover manualmente na revisão final, sem esvaziar a seção. Se as fontes carregadas não sustentarem tantas vozes diferentes para este tópico específico, utilize o máximo de autores distintos disponível e diga isso explicitamente.
+- Utilize majoritariamente citação indireta (paráfrase com nota de rodapé), mas inclua pelo menos 4 citações diretas (transcrição literal entre aspas) ao longo da seção, distribuídas em diferentes pontos do texto, para dar mais força argumentativa às afirmações centrais.
+- Nomeie explicitamente o autor no corpo do texto (não apenas na nota de rodapé) sempre que atribuir uma afirmação a ele — use fórmulas como "Segundo [Autor]...", "[Autor] afirma que...", "Conforme [Autor]...". Ao citar o mesmo autor em frases seguidas, retome o nome dele (ex.: "[Autor] continua afirmando...") em vez de deixar a frase seguinte sem sujeito, apoiada só na nota de rodapé.
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT para cada autor e obra citados.
 - Organize a seção estritamente na ordem dos versículos da perícope, sem pular nenhum.
-- Extensão aproximada: um a três parágrafos substanciais por versículo, a depender de sua complexidade interpretativa e da quantidade de material disponível nas fontes.
+- Extensão aproximada: dois a quatro parágrafos substanciais por versículo (mais, se a complexidade interpretativa e o material disponível permitirem) — para perícopes curtas, isso deve ainda assim resultar em, no mínimo, 7 parágrafos no total considerando todos os versículos.
 """
 
 ## Observações

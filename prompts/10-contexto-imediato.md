@@ -20,11 +20,12 @@ Explique como a perícope [PASSAGEM] se relaciona com o que vem imediatamente an
 3. Resuma o argumento ou a narrativa do trecho imediatamente posterior à perícope, indicando como ele continua, conclui ou reage ao que foi dito em [PASSAGEM].
 
 Requisitos de formato:
-- Baseie a seção em, no mínimo, 5 autores/obras diferentes das fontes disponíveis, distribuindo as citações entre eles — isso garante material suficiente para você remover manualmente um parágrafo ou um autor específico na revisão final, sem esvaziar a seção. Se as fontes carregadas não sustentarem tantas vozes diferentes para este tópico específico, utilize o máximo de autores distintos disponível e diga isso explicitamente.
-- Utilize majoritariamente citação indireta (paráfrase com nota de rodapé), mas inclua pelo menos 3 citações diretas (transcrição literal entre aspas) ao longo da seção, distribuídas em diferentes pontos do texto, para dar mais força argumentativa às afirmações centrais.
+- Baseie a seção em, no mínimo, 7 autores/obras diferentes das fontes disponíveis, distribuindo as citações entre eles — mais de um autor pode dizer coisas parecidas ou complementares, isso é desejável, pois dá mais opções para você escolher e remover manualmente na revisão final, sem esvaziar a seção. Se as fontes carregadas não sustentarem tantas vozes diferentes para este tópico específico, utilize o máximo de autores distintos disponível e diga isso explicitamente.
+- Utilize majoritariamente citação indireta (paráfrase com nota de rodapé), mas inclua pelo menos 4 citações diretas (transcrição literal entre aspas) ao longo da seção, distribuídas em diferentes pontos do texto, para dar mais força argumentativa às afirmações centrais.
+- Nomeie explicitamente o autor no corpo do texto (não apenas na nota de rodapé) sempre que atribuir uma afirmação a ele — use fórmulas como "Segundo [Autor]...", "[Autor] afirma que...", "Conforme [Autor]...". Ao citar o mesmo autor em frases seguidas, retome o nome dele (ex.: "[Autor] continua afirmando...") em vez de deixar a frase seguinte sem sujeito, apoiada só na nota de rodapé.
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT sempre que uma observação de fluxo argumentativo for baseada em um comentarista específico.
 - Cite as referências de versículo (antes, durante e depois) de forma explícita ao longo do texto.
-- Extensão aproximada: 2 a 4 parágrafos.
+- Extensão aproximada: 7 a 12 parágrafos.
 """
 
 ## Observações

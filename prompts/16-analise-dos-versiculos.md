@@ -6,12 +6,15 @@
 Uma tabela palavra por palavra (ou, no caso de textos maiores, expressão por expressão) da perícope no idioma original, com a classificação gramatical de cada termo (classe de palavra, tempo verbal, pessoa, número, gênero, caso, raiz léxica) e sua tradução literal.
 
 ## Fontes recomendadas para esta seção
-O texto original (BHS para hebraico, Nestle-Aland/UBS para grego), um léxico hebraico ou grego (ex.: Holladay), uma gramática de referência do idioma.
+Um léxico hebraico ou grego (ex.: Holladay), uma gramática de referência do idioma. **Importante:** diferente das demais seções, aqui normalmente suas fontes carregadas no notebook serão só obras de referência (léxicos, dicionários, gramáticas) — elas não contêm o texto da sua perícope específica. Por isso, você mesmo precisa colar o texto da perícope no idioma original diretamente no prompt abaixo (copie de uma edição crítica como a BHS, para o Antigo Testamento, ou o Nestle-Aland/UBS, para o Novo Testamento).
 
 ## Prompt (copie e cole no NotebookLM)
 
 """
-Com base exclusivamente nas fontes carregadas neste notebook (texto original em [LÍNGUA ORIGINAL] e léxico/gramática de referência), produza a seção **"Análise dos Versículos"** de um trabalho de exegese sobre a perícope **[PASSAGEM]**.
+Com base no texto abaixo, em [LÍNGUA ORIGINAL], da perícope **[PASSAGEM]**, e utilizando exclusivamente o léxico e a gramática de referência carregados neste notebook para a classificação gramatical e o significado lexical, produza a seção **"Análise dos Versículos"**.
+
+Texto da perícope no idioma original (cole aqui, versículo por versículo, indicando o número de cada um):
+[TEXTO NO IDIOMA ORIGINAL]
 
 Para cada versículo da perícope, monte uma tabela com três colunas:
 
@@ -22,11 +25,11 @@ Para cada versículo da perícope, monte uma tabela com três colunas:
 Organize a tabela por versículo, com um cabeçalho de seção indicando "Versículo [número]" antes de cada bloco de palavras daquele versículo.
 
 Requisitos de formato:
-- Baseie toda classificação gramatical exclusivamente no texto original e no léxico/gramática carregados neste notebook — não infira classificações gramaticais de memória.
+- Use o texto colado acima como base para as palavras e a ordem delas; use o léxico/gramática carregados neste notebook exclusivamente para a classificação gramatical e o significado lexical — não infira classificações gramaticais de memória.
 - Cite em nota de rodapé (ABNT) o léxico ou gramática utilizado para as definições lexicais, na primeira ocorrência.
-- Mantenha a ordem das palavras exatamente como aparecem no texto original.
+- Mantenha a ordem das palavras exatamente como aparecem no texto colado.
 - Não pule nenhuma palavra do texto, incluindo conjunções, artigos e partículas.
 """
 
 ## Observações
-Esta é a seção mais mecânica e demorada de revisar manualmente — confira cuidadosamente a vocalização hebraica ou a acentuação grega gerada pela IA, pois erros de caractere são comuns em texto bíblico original processado por IA.
+Esta é a seção mais mecânica e demorada de revisar manualmente. Antes de rodar o prompt, confira se colou o texto original correto e completo da perícope (recomendado copiar de uma edição crítica confiável, como BHS ou Nestle-Aland/UBS, para evitar erros de digitação). Depois, confira cuidadosamente a vocalização hebraica ou a acentuação grega geradas pela IA na tabela — erros de caractere são comuns em texto bíblico original processado por IA.
