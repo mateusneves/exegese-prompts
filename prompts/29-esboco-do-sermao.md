@@ -1,4 +1,4 @@
-# 28. Esboço do Sermão
+# 29. Esboço do Sermão
 
 **Localização no trabalho:** Seção 5.3 — Esboço do Sermão
 

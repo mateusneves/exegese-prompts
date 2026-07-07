@@ -36,18 +36,19 @@ Cada arquivo desta pasta é um prompt independente, correspondente a um item do 
 | 16 | `17-traducao-literal.md` | 4.3.2 Tradução Literal |
 | — | *(manual)* | 4.3.3 Tradução Dinâmica — sem prompt; adapte a tradução literal para uma leitura fluente |
 | 17 | `18-analise-das-versoes.md` | 4.3.4 Análise das Versões |
-| 18 | `19-analise-manuscritologica.md` | 4.4 Análise Manuscritológica |
-| 19 | `20-esboco-lingua-original.md` | 4.5.1 Esboço em Hebraico/Grego |
-| 20 | `21-esboco-portugues.md` | 4.5.2 Esboço em Português |
-| 21 | `22-comentario-exegetico.md` | 4.6 Comentário Exegético |
-| 22 | `23-mensagem-epoca-da-escrita.md` | 4.7 Mensagem para a Época da Escrita |
-| 23 | `24-mensagem-para-hoje.md` | 5.1 Mensagem para Hoje |
-| 24 | `25-implicacoes-teologia-biblica.md` | 5.2.1 Implicações — Teologia Bíblica |
-| 25 | `26-implicacoes-teologia-sistematica.md` | 5.2.2 Implicações — Teologia Sistemática |
-| 26 | `27-implicacoes-teologia-pastoral.md` | 5.2.3 Implicações — Teologia Pastoral |
-| 27 | `28-esboco-do-sermao.md` | 5.3 Esboço do Sermão |
-| 28 | `29-conclusao.md` | 6. Conclusão |
-| 29 | `01-introducao.md` | 1. Introdução *(gerar por último)* |
+| 18 | `19-analise-manuscritologica-novo-testamento.md` | 4.4 Análise Manuscritológica |
+| 19 | `19-analise-manuscritologica-antigo-testamento.md` | 4.4 Análise Manuscritológica |
+| 20 | `21-esboco-lingua-original.md` | 4.5.1 Esboço em Hebraico/Grego |
+| 21 | `22-esboco-portugues.md` | 4.5.2 Esboço em Português |
+| 22 | `23-comentario-exegetico.md` | 4.6 Comentário Exegético |
+| 23 | `24-mensagem-epoca-da-escrita.md` | 4.7 Mensagem para a Época da Escrita |
+| 24 | `25-mensagem-para-hoje.md` | 5.1 Mensagem para Hoje |
+| 25 | `26-implicacoes-teologia-biblica.md` | 5.2.1 Implicações — Teologia Bíblica |
+| 26 | `27-implicacoes-teologia-sistematica.md` | 5.2.2 Implicações — Teologia Sistemática |
+| 27 | `28-implicacoes-teologia-pastoral.md` | 5.2.3 Implicações — Teologia Pastoral |
+| 28 | `29-esboco-do-sermao.md` | 5.3 Esboço do Sermão |
+| 29 | `30-conclusao.md` | 6. Conclusão |
+| 30 | `01-introducao.md` | 1. Introdução *(gerar por último)* |
 
 **Sem prompt correspondente** (copiar/colar direto da fonte, ou tarefa manual simples): **2. Texto Bíblico** (colar o texto da perícope na versão escolhida), **4.1 Texto Hebraico/Grego** (colar o texto original da BHS/NA28-UBS), **4.3.3 Tradução Dinâmica** (adaptação manual da tradução literal para leitura fluente).
 
@@ -75,17 +76,18 @@ exegese-prompts/
 ├── 16-analise-dos-versiculos.md
 ├── 17-traducao-literal.md
 ├── 18-analise-das-versoes.md
-├── 19-analise-manuscritologica.md
-├── 20-esboco-lingua-original.md
-├── 21-esboco-portugues.md
-├── 22-comentario-exegetico.md
-├── 23-mensagem-epoca-da-escrita.md
-├── 24-mensagem-para-hoje.md
-├── 25-implicacoes-teologia-biblica.md
-├── 26-implicacoes-teologia-sistematica.md
-├── 27-implicacoes-teologia-pastoral.md
-├── 28-esboco-do-sermao.md
-└── 29-conclusao.md
+├── 19-analise-manuscritologica-novo-testamento.md
+├── 20-analise-manuscritologica-antigo-testamento.md
+├── 21-esboco-lingua-original.md
+├── 22-esboco-portugues.md
+├── 23-comentario-exegetico.md
+├── 24-mensagem-epoca-da-escrita.md
+├── 25-mensagem-para-hoje.md
+├── 26-implicacoes-teologia-biblica.md
+├── 27-implicacoes-teologia-sistematica.md
+├── 28-implicacoes-teologia-pastoral.md
+├── 29-esboco-do-sermao.md
+└── 30-conclusao.md
 ```
 
 ## Modelo de referência

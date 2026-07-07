@@ -1,4 +1,4 @@
-# 25. Implicações para a Teologia Bíblica
+# 26. Implicações para a Teologia Bíblica
 
 **Localização no trabalho:** Seção 5.2.1 — Implicações para a Teologia Bíblica
 

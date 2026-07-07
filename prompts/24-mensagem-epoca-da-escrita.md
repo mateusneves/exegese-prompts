@@ -1,4 +1,4 @@
-# 23. Mensagem para a Época da Escrita
+# 24. Mensagem para a Época da Escrita
 
 **Localização no trabalho:** Seção 4.7 — Mensagem para a Época da Escrita
 

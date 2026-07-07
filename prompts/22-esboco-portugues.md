@@ -1,35 +1,33 @@
-# 20. Esboço na Língua Original (Hebraico/Grego)
+# 22. Esboço em Português
 
-**Localização no trabalho:** Seção 4.5.1 — Esboço em Hebraico (ou Grego, conforme o Testamento)
+**Localização no trabalho:** Seção 4.5.2 — Esboço em Português
 
-## O que este prompt gera (e o que ele NÃO é)
+## O que este prompt gera (e como se relaciona com o prompt 20)
 
-**Não é** uma árvore de subordinação gramatical (oração principal à esquerda, subordinadas recuadas progressivamente à direita) — essa é uma técnica de diagramação diferente e não é a que o modelo de referência usa. **É** um **fluxograma de fluxo lógico e retórico da perícope**, no nível de cláusula/frase (não palavra por palavra), com quatro relações visuais:
+O mesmo tipo de fluxograma lógico/retórico do prompt 20 (sequência, paralelismo, agrupamento de listas coordenadas, continuidade entre versículos distantes), mas construído **de forma independente, direto sobre o texto em português** — não é uma tradução mecânica do resultado do prompt 20. A IA deve analisar a sintaxe e a retórica da tradução portuguesa por si mesma, e não apenas substituir palavras hebraicas/gregas por palavras portuguesas em uma estrutura já pronta.
 
-1. **Sequência** — uma afirmação leva à/é seguida pela próxima no argumento do texto.
-2. **Paralelismo** — duas cláusulas que dizem essencialmente a mesma coisa com palavras diferentes, ou que formam um par (dois vocativos, duas ordens sinônimas).
-3. **Agrupamento** — uma lista de itens coordenados (objetos de um mesmo verbo, elaborações de uma mesma ideia) reunidos sob uma única afirmação governante.
-4. **Continuidade à distância** — uma afirmação (ex.: "diz o SENHOR") continua "governando" o que vem várias linhas depois, mesmo com material intermediário no meio.
+Isso é proposital: como o português tem ordem de palavras e estrutura de frase diferentes do hebraico/grego, a melhor forma de garantir que o diagrama em português seja natural e correto é a IA analisá-lo diretamente, e não herdar cegamente decisões estruturais tomadas para o idioma original. Depois de gerar os dois esboços (20 e 21), compare-os: se as relações de paralelismo e agrupamento identificadas forem semelhantes nos dois, isso é uma boa confirmação cruzada da análise; se forem diferentes em algum ponto, vale revisar qual dos dois capturou melhor a lógica do texto.
 
-No modelo de referência (Isaías 1.10-20): "estou farto" aponta para um grupo de cinco itens de sacrifício (carneiros, gordura, sangue, cordeiros, bodes); "Sodoma" e "Gomorra" formam um par paralelo; e "diz o SENHOR" (v.11) continua governando o texto até "não continueis a trazer ofertas vãs" (v.13).
-
-**Esta versão do prompt pede a saída em [Mermaid](https://mermaid.js.org)**, uma linguagem de diagrama em texto — assim você consegue transformar o resultado num fluxograma visual de verdade (caixas e setas), sem precisar de uma IA que gera imagem e sem precisar redesenhar tudo à mão.
+**Esta versão do prompt também pede a saída em [Mermaid](https://mermaid.js.org)**, para gerar um fluxograma visual de verdade no mermaid.live, assim como o prompt 20.
 
 ## Fontes recomendadas para esta seção
-Texto original, a análise gramatical já produzida (prompt 16), uma gramática de referência.
+A tradução literal já produzida (prompt 17) ou o texto da perícope em uma tradução de sua preferência. Não é necessário colar o resultado do prompt 20.
 
 ## Prompt (copie e cole no NotebookLM)
 
 """
-Com base exclusivamente no texto original em [LÍNGUA ORIGINAL] e na análise gramatical já produzida para a perícope **[PASSAGEM]** (cole-a aqui como referência), produza a seção **"Esboço em [LÍNGUA ORIGINAL]"** em formato de **código Mermaid** (diagrama do tipo `flowchart`).
+Com base no texto em português da perícope **[PASSAGEM]** abaixo (tradução literal ou de sua preferência), produza a seção **"Esboço em Português"** em formato de **código Mermaid** (diagrama do tipo `flowchart`).
+
+Texto da perícope em português (cole aqui, versículo por versículo):
+[TEXTO BÍBLICO]
 
 Construa um fluxograma de fluxo lógico/retórico da perícope, no nível de cláusula/frase (agrupando palavras que formam uma unidade de sentido, não decompondo até a palavra isolada), seguindo estas regras de sintaxe Mermaid:
 
 1. Comece o código com `flowchart TD` (top-down).
-2. Cada cláusula vira um nó com um ID curto e o texto entre aspas duplas dentro de colchetes, ex.: `v10a["שִׁמְעוּ דְבַר־יְהוָה"]`. Use IDs no padrão `v` + número do versículo + letra sequencial (v10a, v10b, v11a...).
+2. Cada cláusula vira um nó com um ID curto e o texto entre aspas duplas dentro de colchetes, ex.: `v10a["Ouvi a palavra do SENHOR"]`. Use IDs no padrão `v` + número do versículo + letra sequencial (v10a, v10b, v11a...).
 3. **Granularidade dos nós**: se uma oração tiver conjunção subordinativa/explicativa que introduza uma relação lógica distinta da anterior — causa ("porque", "pois", "já que", "uma vez que", "por causa de", "por estar/ser"), finalidade ("a fim de", "para que"), concessão ("embora", "ainda que"), condição ("se", "caso"), consequência ("de modo que", "de sorte que") — separe SEMPRE em dois nós ligados por seta simples, rotulando a seta com a relação lógica quando ajudar: `v3a["O que era impossível à lei"] -- "causa" --> v3b["por estar ela enferma por causa da carne"]`. O critério é a relação lógica entre as orações, nunca a fluência ou brevidade da frase.
 4. **Sequência** (uma cláusula leva à seguinte): seta simples — `v10a --> v10b`.
-5. **Paralelismo** (par de cláusulas paralelas): seta dupla — `v10c <--> v10d`.
+5. **Paralelismo** (par de cláusulas paralelas, identificado por você a partir da estrutura retórica do texto em português): seta dupla — `v10c <--> v10d`.
 6. **Agrupamento** (lista de itens sob uma afirmação governante): sempre que dois ou mais elementos coordenados ("e"/"ou") dependerem da mesma afirmação, verbo ou preposição governante, separe cada elemento em seu próprio nó dentro de um `subgraph` — nunca concatene os itens no texto de um único nó, mesmo com apenas dois itens. Por exemplo, "enviando o seu próprio Filho em semelhança de carne pecaminosa e no tocante ao pecado" deve virar um nó "enviando o seu próprio Filho" apontando para um subgraph com dois nós irmãos ("em semelhança de carne pecaminosa" e "no tocante ao pecado"):
 ```
 v11a["Estou farto / não me agrado"] --> lista11
@@ -42,9 +40,9 @@ end
 8. Para identificar em que versículo cada nó está, adicione um comentário Mermaid antes do bloco correspondente: `%% Versículo 10`, `%% Versículo 11`, etc.
 
 Requisitos de formato:
-- Baseie a estrutura sintática e as relações de paralelismo exclusivamente na análise gramatical fornecida e no texto original — não introduza elementos que não estejam na fonte.
-- Mantenha o texto dos nós no idioma original ([LÍNGUA ORIGINAL]).
-- Todo texto dentro de colchetes deve estar entre aspas duplas, sem aspas duplas dentro do próprio texto (se o texto original tiver aspas, substitua por aspas simples).
+- Baseie a estrutura sintática e as relações de paralelismo exclusivamente no texto em português fornecido acima — não introduza elementos que não estejam nele.
+- Use uma redação natural e gramaticalmente correta em português (não uma tradução literal desajeitada), mesmo que isso signifique reorganizar levemente a ordem das palavras em relação ao idioma original.
+- Todo texto dentro de colchetes deve estar entre aspas duplas, sem aspas duplas dentro do próprio texto (use aspas simples se precisar citar algo dentro do rótulo).
 - Gere **apenas o código Mermaid válido**, sem texto explicativo antes ou depois do bloco de código, para que eu possa copiar e colar diretamente em um visualizador.
 - **Antes de finalizar, faça uma autoverificação:** revise o texto em busca de orações causais/finais/condicionais/concessivas fundidas com a anterior no mesmo nó, e de listas de dois ou mais itens coordenados que não tenham sido decompostas em subgraph — corrija antes de prosseguir. Confirme também que o código usa pelo menos uma seta dupla `<-->` (paralelismo), pelo menos um `subgraph` (agrupamento) e pelo menos uma seta pontilhada de continuidade à distância (`-.->`). Se algum desses três elementos genuinamente não se aplicar a esta perícope específica, não o omita em silêncio — inclua um comentário Mermaid (`%%`) logo antes do trecho correspondente, justificando por que esse recurso não foi usado (ex.: `%% Não há paralelismo sinonímico claro entre os versículos 12-13`). Não force um paralelismo, agrupamento ou continuidade que não exista no texto só para satisfazer esta verificação.
 - Ao final, como comentário Mermaid (`%%`), adicione uma frase explicando o principal padrão estrutural identificado no conjunto da perícope.
@@ -52,10 +50,10 @@ Requisitos de formato:
 
 ## O que fazer com o resultado
 
-1. Copie **só o código Mermaid** gerado (a partir de `flowchart TD` até o final — não inclua nenhum texto explicativo que a IA tenha adicionado antes/depois, se houver).
+1. Copie **só o código Mermaid** gerado (a partir de `flowchart TD` até o final).
 2. Acesse **[mermaid.live](https://mermaid.live)** e cole o código no painel da esquerda ("Code"). O diagrama aparece renderizado automaticamente no painel da direita.
 3. Se aparecer erro de sintaxe: geralmente é aspas dentro de um rótulo, parênteses ou dois-pontos sem estarem dentro de aspas, ou um nó com o mesmo ID repetido — corrija manualmente a linha indicada pelo erro.
-4. Quando o diagrama estiver correto, use o botão de exportação do mermaid.live (canto superior direito) para baixar como PNG ou SVG, e insira essa imagem no seu documento Word na seção 4.5.1.
+4. Quando o diagrama estiver correto, use o botão de exportação do mermaid.live (canto superior direito) para baixar como PNG ou SVG, e insira essa imagem no seu documento Word na seção 4.5.2.
 
 ## Observações
-Espere ter que fazer pequenos ajustes manuais na sintaxe Mermaid antes de renderizar sem erros — isso é normal e rápido de corrigir. O valor do prompt está em a IA identificar corretamente a lógica das conexões (sequência, paralelismo, agrupamento, continuidade); a sintaxe exata do Mermaid é só o "encanamento" para transformar essa lógica em uma imagem.
+Rode este prompt e o 20 em momentos diferentes (não precisa ser em sequência) e compare os dois diagramas renderizados ao final, em vez de gerar um a partir do outro. Pequenos ajustes manuais de sintaxe antes de renderizar são normais — o valor do prompt está na IA identificar corretamente a lógica das conexões, não na sintaxe Mermaid perfeita de primeira.

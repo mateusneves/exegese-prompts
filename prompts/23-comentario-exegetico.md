@@ -1,4 +1,4 @@
-# 22. Comentário Exegético
+# 23. Comentário Exegético
 
 **Localização no trabalho:** Seção 4.6 — Comentário Exegético
 

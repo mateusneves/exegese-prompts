@@ -1,4 +1,4 @@
-# 26. Implicações para a Teologia Sistemática
+# 27. Implicações para a Teologia Sistemática
 
 **Localização no trabalho:** Seção 5.2.2 — Implicações para a Teologia Sistemática
 

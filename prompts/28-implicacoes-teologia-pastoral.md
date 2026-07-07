@@ -1,4 +1,4 @@
-# 27. Implicações para a Teologia Pastoral
+# 28. Implicações para a Teologia Pastoral
 
 **Localização no trabalho:** Seção 5.2.3 — Implicações para a Teologia Pastoral
 
