@@ -37,7 +37,7 @@ Cada arquivo desta pasta é um prompt independente, correspondente a um item do 
 | — | *(manual)* | 4.3.3 Tradução Dinâmica — sem prompt; adapte a tradução literal para uma leitura fluente |
 | 17 | `18-analise-das-versoes.md` | 4.3.4 Análise das Versões |
 | 18 | `19-analise-manuscritologica-novo-testamento.md` | 4.4 Análise Manuscritológica |
-| 19 | `19-analise-manuscritologica-antigo-testamento.md` | 4.4 Análise Manuscritológica |
+| 19 | `20-analise-manuscritologica-antigo-testamento.md` | 4.4 Análise Manuscritológica |
 | 20 | `21-esboco-lingua-original.md` | 4.5.1 Esboço em Hebraico/Grego |
 | 21 | `22-esboco-portugues.md` | 4.5.2 Esboço em Português |
 | 22 | `23-comentario-exegetico.md` | 4.6 Comentário Exegético |
