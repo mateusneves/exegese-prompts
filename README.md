@@ -17,7 +17,7 @@ Cada arquivo desta pasta é um prompt independente, correspondente a um item do 
 
 | # | Arquivo | Seção do trabalho |
 |---|---|---|
-| — | `00-instrucoes-gerais-notebooklm.md` | (carregar antes de tudo, como fonte fixa) |
+| — | `00-instrucoes-gerais-notebooklm.md` | (carregar de preferencia no campo de instruções do Modelo de iA) |
 | 1 | `02-contexto-historico.md` | 3.1 Contexto Histórico (intro) |
 | 2 | `03-autor.md` | 3.1.1 Autor |
 | 3 | `04-destinatarios.md` | 3.1.2 Destinatários |
