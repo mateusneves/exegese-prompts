@@ -10,7 +10,7 @@ Manuais de hermenêutica (Fee, Osborne), introduções ao Antigo/Novo Testamento
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Gênero Literário"** de um trabalho de exegese sobre a perícope **[PASSAGEM]**, do livro de **[LIVRO]**.
 
 A seção deve conter:
@@ -26,7 +26,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT.
 - Inclua ao menos uma citação direta de um manual de hermenêutica (Fee ou Osborne, se disponíveis nas fontes) sobre os princípios de interpretação desse gênero.
 - Extensão aproximada: 7 a 12 parágrafos.
-"""
+```
 
 ## Observações
 Sempre que o livro combinar gêneros (por exemplo, um livro profético com seções narrativas, como partes de Isaías ou Jeremias), descreva essa mistura e identifique especificamente o gênero da perícope em estudo dentro desse conjunto.
