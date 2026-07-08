@@ -21,12 +21,12 @@ Apud: `AUTOR CITADO apud AUTOR DA OBRA CONSULTADA, Ano, p. XX.`
 Citação direta: usar aspas (recuo se >3 linhas, NBR 10520).
 
 **Regra crítica:** se a mesma obra for citada mais de uma vez na seção, a partir da segunda ocorrência **nunca repita a referência completa** — use `Ibid., p. XX` (citação anterior é da mesma obra) ou `SOBRENOME, Ano, p. XX` (obra já citada antes, mas outra fonte apareceu no meio). Exemplo:
-```
+
 ¹ KÖSTENBERGER, A. et al. Introdução ao NT. São Paulo: Vida Nova, 2022, p. 691.
 ² Ibid., p. 692.
 ³ SWINDOLL, C. Comentário Swindoll: João. São Paulo: Hagnos, 2016, p. 592.
 ⁴ KÖSTENBERGER et al., 2022, p. 696.
-```
+
 Revise a lista de notas antes de finalizar: nenhuma obra deve aparecer duas vezes por extenso.
 
 ## 4. Método de referência
