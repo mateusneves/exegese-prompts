@@ -10,7 +10,7 @@ Comentários bíblicos com análise estrutural detalhada, introduções ao Antig
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Estrutura do Contexto"** de um trabalho de exegese sobre a perícope **[PASSAGEM]**, do livro de **[LIVRO]**.
 
 Descreva, de forma sequencial e detalhada, a estrutura literária de todo o livro de [LIVRO], indicando o que cada grande seção ou capítulo (ou grupo de capítulos) contém, segundo a análise de um ou mais autores citados nas fontes disponíveis. A descrição deve ser mais granular do que uma simples lista de blocos temáticos (Contexto Remoto) — inclua, quando as fontes permitirem, a função literária de cada parte (introdução, clímax, transição, conclusão, apêndice, etc.).
@@ -22,7 +22,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT.
 - Percorra o livro em ordem, capítulo a capítulo ou bloco a bloco, dedicando ao menos uma frase a cada parte.
 - Extensão aproximada: 7 a 12 parágrafos, conforme a extensão do livro.
-"""
+```
 
 ## Observações
 Esta seção pode ter alguma sobreposição de conteúdo com "Contexto Remoto" e "Esboço Geral" — isso é esperado e reflete o próprio modelo de referência (Isaías). O diferencial aqui é o nível de detalhe sobre a função literária de cada parte.

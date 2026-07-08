@@ -10,7 +10,7 @@ Todo o conteúdo já produzido nas demais seções (cole os principais resultado
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente no conteúdo já produzido para todo o trabalho de exegese sobre a perícope **[PASSAGEM]**, do livro de **[LIVRO]** (cole aqui um resumo das principais seções já geradas: Contexto Histórico, Definição da Perícope, Comentário Exegético, Mensagem para a Época da Escrita, Mensagem para Hoje e Implicações Teológicas), redija a seção **"Conclusão"**.
 
 A conclusão deve conter:
@@ -24,7 +24,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa.
 - Não introduza citações novas de autores nesta seção — a conclusão deve sintetizar o que já foi apresentado e fundamentado ao longo do trabalho, sem novas fontes.
 - Extensão aproximada: 4 a 6 parágrafos.
-"""
+```
 
 ## Observações
 Gere esta seção por último, depois de "01-introducao", ou em conjunto com ela — as duas devem manter total coerência de linguagem e conteúdo, já que uma anuncia o percurso (Introdução) e a outra o recapitula (Conclusão).

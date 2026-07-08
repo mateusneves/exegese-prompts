@@ -10,7 +10,7 @@ Comentários bíblicos (especialmente introduções aos grandes blocos do livro)
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Contexto Remoto"** de um trabalho de exegese sobre a perícope **[PASSAGEM]**, do livro de **[LIVRO]**.
 
 Explique, com base nas fontes disponíveis, o panorama de todo o livro de [LIVRO], descrevendo os grandes blocos temáticos em que ele se divide (conforme o esboço geral do livro) e como cada um desses blocos se articula com os demais em termos de progressão teológica ou narrativa. Ao final, situe explicitamente em qual desses grandes blocos a perícope [PASSAGEM] está inserida, e o que isso implica para sua interpretação.
@@ -22,7 +22,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT.
 - Organize a explicação dos blocos temáticos em ordem sequencial (do início ao fim do livro), dedicando um parágrafo a cada grande bloco.
 - Extensão aproximada: 7 a 12 parágrafos no total (desenvolva mais de um parágrafo por bloco temático, se necessário, para atingir esse volume), mais um parágrafo final de localização da perícope.
-"""
+```
 
 ## Observações
 Esta seção pressupõe o mesmo esboço geral do livro usado no prompt "08-esboco-geral" — mantenha coerência entre as duas seções ao revisar o trabalho final.

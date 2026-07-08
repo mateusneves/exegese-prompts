@@ -10,7 +10,7 @@ O resultado do prompt "16-analise-dos-versiculos" (cole-o como contexto), o text
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente na análise gramatical palavra por palavra já produzida para a perícope **[PASSAGEM]** (cole aqui o resultado do prompt "Análise dos Versículos"), monte a seção **"Tradução Literal"**.
 
 Junte as traduções literais de cada palavra/expressão, versículo por versículo, em uma tradução corrida da perícope inteira, mantendo:
@@ -23,7 +23,7 @@ Requisitos de formato:
 - Apresente o texto corrido, dividido por número de versículo entre parênteses ou colchetes.
 - Não adicione palavras que não estejam na análise gramatical fornecida (conectivos implícitos podem ser indicados entre colchetes, se necessário para a compreensão mínima).
 - Extensão: a perícope completa, sem cortes.
-"""
+```
 
 ## Observações
 Este prompt não requer fontes bibliográficas adicionais além do próprio resultado da Análise dos Versículos — é essencialmente uma tarefa de compilação/montagem, não de pesquisa. A "Tradução Dinâmica" (item do sumário sem prompt próprio) pode ser produzida manualmente por você a partir desta tradução literal, buscando fluência em português.

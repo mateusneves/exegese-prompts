@@ -10,7 +10,7 @@ Comentários bíblicos (com boa análise de fluxo argumentativo local), a própr
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Contexto Imediato"** de um trabalho de exegese sobre a perícope **[PASSAGEM]**, do livro de **[LIVRO]**.
 
 Explique como a perícope [PASSAGEM] se relaciona com o que vem imediatamente antes e imediatamente depois dela no texto bíblico. Para isso:
@@ -26,7 +26,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT sempre que uma observação de fluxo argumentativo for baseada em um comentarista específico.
 - Cite as referências de versículo (antes, durante e depois) de forma explícita ao longo do texto.
 - Extensão aproximada: 7 a 12 parágrafos.
-"""
+```
 
 ## Observações
 Esta seção normalmente complementa a "Definição da Perícope" (prompt 15) — vale gerar as duas em sequência para manter consistência sobre os limites exatos do texto em estudo.

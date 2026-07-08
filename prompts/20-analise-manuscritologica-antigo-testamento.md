@@ -28,7 +28,7 @@ Emanuel Tov, *Textual Criticism of the Hebrew Bible* (critérios de avaliação 
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base **exclusivamente** nos dados fornecidos abaixo e nas fontes carregadas neste notebook, redija a seção **"Análise Manuscritológica"** de um trabalho de exegese sobre a perícope **[PASSAGEM]**, texto em hebraico.
 
 Texto da perícope no idioma original (cole aqui, versículo por versículo):
@@ -94,7 +94,7 @@ Requisitos de formato:
 - As tabelas devem estar em formato Markdown simples (para copiar depois para o Word).
 - Redija os parágrafos de discussão e síntese em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé ABNT. Monte a nota completa (SOBRENOME, Nome; ... Título em negrito. Edição. Cidade: Editora, Ano, p. XX) a partir dos dados de citação fornecidos acima (opção a) ou do comentário citado (opção b) — não use uma citação genérica ou incompleta se os dados completos foram fornecidos.
 - Se nem aparato, nem comentário, nem versões antigas estiverem disponíveis para esta perícope, diga isso explicitamente e não prossiga com a análise de variantes.
-"""
+```
 
 ## Observações
 Depois de gerar o resultado, confira manualmente cada sigla, cada data e cada leitura mencionada contra a fonte original que você colou — não contra a "memória" da IA. Se notar qualquer variante, data ou testemunho que não esteja no que você forneceu, é sinal de que a IA extrapolou e o trecho deve ser removido ou reescrito manualmente. Testado com o Salmo 123 (aparato do Logos): funcionou bem depois de adicionar as regras de filtragem por capítulo e de distinção entre conjectura e testemunho real — se sua perícope tiver notas parecidas com "prb", "prp" ou "frt" sem sigla de testemunha junto, é esperado que a IA as trate como conjectura, não como variante.

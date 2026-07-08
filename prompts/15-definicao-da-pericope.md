@@ -10,7 +10,7 @@ Comentários bíblicos com análise estrutural detalhada, o próprio texto bíbl
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Definição da Perícope"** de um trabalho de exegese sobre **[PASSAGEM]**, do livro de **[LIVRO]**.
 
 A seção deve conter:
@@ -24,7 +24,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT.
 - Cite os versículos específicos (imediatamente antes, a perícope, e imediatamente depois) ao longo da explicação.
 - Extensão aproximada: 2 a 3 parágrafos. Esta seção é deliberadamente curta e técnica (não segue a regra geral de 7-12 parágrafos/7 autores/4 citações diretas do documento mestre) — não force diversidade de autores ou tamanho além do que a delimitação da perícope naturalmente exige.
-"""
+```
 
 ## Observações
 Gere esta seção em conjunto com "10-contexto-imediato" — as duas tratam de território muito próximo, mas esta é mais técnica (delimitação) enquanto aquela é mais narrativa (fluxo argumentativo). Assim como "23-mensagem-epoca-da-escrita" e "29-conclusao", esta é uma exceção proposital à regra geral de volume — é uma justificativa técnica pontual, não uma seção de síntese ampla.

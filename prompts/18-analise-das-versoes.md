@@ -10,7 +10,7 @@ Várias traduções da Bíblia em português (ex.: ACF, ARA, ARC, NVI, NAA, NTLH
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente na tradução literal já produzida para a perícope **[PASSAGEM]** (cole-a aqui como referência) e nas versões da Bíblia em português disponíveis neste notebook, produza a seção **"Análise das Versões"**.
 
 Primeiro, monte uma tabela comparativa, versículo por versículo, com a seguinte estrutura: uma coluna "Literal" (com o texto da tradução literal já produzida) e uma coluna para cada versão da Bíblia disponível (identificada pela sigla da versão, ex.: ACF, ARA, ARC, NVI), trazendo o texto de cada versão para aquele versículo.
@@ -29,7 +29,7 @@ Requisitos de formato:
 - Organize a análise por número de versículo, com subtítulo "Versículo [número]" antes de cada bloco de comentário.
 - Ao final, inclua um parágrafo de síntese geral sobre a confiabilidade das versões analisadas para esta perícope.
 - Indique em nota de rodapé (ABNT) a edição e o ano de cada versão bíblica utilizada, na primeira menção.
-"""
+```
 
 ## Observações
 Quanto mais versões você carregar no notebook, mais rica fica esta seção — o modelo de referência (Isaías) utiliza catorze versões diferentes, incluindo três de Portugal.

@@ -10,7 +10,7 @@ Um léxico hebraico ou grego (ex.: Holladay), uma gramática de referência do i
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base no texto abaixo, em [LÍNGUA ORIGINAL], da perícope **[PASSAGEM]**, e utilizando exclusivamente o léxico e a gramática de referência carregados neste notebook para a classificação gramatical e o significado lexical, produza a seção **"Análise dos Versículos"**.
 
 Texto da perícope no idioma original (cole aqui, versículo por versículo, indicando o número de cada um):
@@ -29,7 +29,7 @@ Requisitos de formato:
 - Cite em nota de rodapé (ABNT) o léxico ou gramática utilizado para as definições lexicais, na primeira ocorrência.
 - Mantenha a ordem das palavras exatamente como aparecem no texto colado.
 - Não pule nenhuma palavra do texto, incluindo conjunções, artigos e partículas.
-"""
+```
 
 ## Observações
 Esta é a seção mais mecânica e demorada de revisar manualmente. Antes de rodar o prompt, confira se colou o texto original correto e completo da perícope (recomendado copiar de uma edição crítica confiável, como BHS ou Nestle-Aland/UBS, para evitar erros de digitação). Depois, confira cuidadosamente a vocalização hebraica ou a acentuação grega geradas pela IA na tabela — erros de caractere são comuns em texto bíblico original processado por IA.

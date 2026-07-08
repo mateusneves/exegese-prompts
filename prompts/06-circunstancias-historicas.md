@@ -10,7 +10,7 @@ Introduções ao Antigo/Novo Testamento, comentários bíblicos, obras de histó
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Circunstâncias Históricas"** de um trabalho de exegese sobre o livro de **[LIVRO]**, perícope em estudo: **[PASSAGEM]**.
 
 Esta seção já pressupõe que o panorama macro de impérios/potências dominantes foi apresentado anteriormente, na seção "Contexto Histórico" (cole-a aqui como referência, se disponível, para evitar repetição). Aqui, o foco é aprofundar:
@@ -28,7 +28,7 @@ Requisitos de formato:
 - Evite repetir literalmente a cronologia geral de impérios/potências já tratada em "Contexto Histórico" — aqui, aprofunde além dela.
 - Cite passagens bíblicas paralelas (de livros históricos, por exemplo) que confirmem ou complementem o pano de fundo histórico, quando as fontes fizerem essa referência cruzada.
 - Extensão aproximada: 7 a 12 parágrafos, a depender da complexidade do período histórico envolvido.
-"""
+```
 
 ## Observações
 Esta costuma ser uma das seções mais extensas do Estudo Contextual. Reserve fontes de história bíblica robustas (panoramas do AT/NT, comentários com boa seção introdutória) para obter riqueza de detalhes aqui. Cole o resultado de "02-contexto-historico" como contexto antes de rodar este prompt, para que a IA não repita a mesma cronologia macro.

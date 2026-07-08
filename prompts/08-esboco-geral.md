@@ -10,7 +10,7 @@ Comentários bíblicos com esboços estruturais do livro, introduções ao Antig
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Esboço Geral"** de um trabalho de exegese sobre o livro de **[LIVRO]**, perícope em estudo: **[PASSAGEM]**.
 
 Produza um esboço estruturado de todo o livro de [LIVRO], em formato hierárquico (algarismos romanos para as grandes divisões, letras maiúsculas para subdivisões, e números arábicos se houver um terceiro nível), citando os capítulos e versículos que cada bloco abrange. Baseie-se no esboço estrutural apresentado por um ou mais autores das fontes disponíveis, indicando em nota de rodapé (ABNT) de qual autor e obra o esboço foi extraído ou adaptado.
@@ -21,7 +21,7 @@ Requisitos de formato:
 - Apresente o esboço em formato de tópicos (não em prosa corrida), com indentação clara por nível hierárquico.
 - Inclua uma frase introdutória, em prosa, antes do esboço, explicando de forma breve a lógica geral da divisão proposta.
 - Extensão aproximada: 1 parágrafo introdutório + esboço de até duas páginas, conforme o tamanho do livro.
-"""
+```
 
 ## Observações
 Livros mais longos (ex.: Isaías, Salmos, Atos) geram esboços mais extensos. Certifique-se de que a fonte carregada realmente traga um esboço completo do livro — nem todo comentário oferece isso em detalhe.

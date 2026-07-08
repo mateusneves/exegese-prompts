@@ -10,7 +10,7 @@ Comentários bíblicos (especialmente a introdução de cada comentário), intro
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija o **corpo da seção "Contexto Histórico"** (a parte que vem imediatamente após o título da seção 3.1, antes de qualquer subseção específica sobre autor, destinatários ou data) de um trabalho de exegese sobre **[LIVRO]**, perícope em estudo: **[PASSAGEM]**.
 
 Esta seção deve apresentar apenas o panorama histórico macro em que o livro se insere — uma linha do tempo enxuta, não a narrativa detalhada de bastidores administrativos ou eventos específicos (isso pertence à seção "Circunstâncias Históricas", que vem a seguir). Inclua, na medida em que as fontes disponíveis permitirem:
@@ -27,7 +27,7 @@ Requisitos de formato:
 - Articule a narrativa em ordem cronológica.
 - Não detalhe administração interna do povo/comunidade destinatária (autoridades religiosas locais, governadores regionais, conselhos) nem eventos específicos ligados à ocasião da escrita — isso será tratado em "Circunstâncias Históricas". Não antecipe também o conteúdo das demais subseções (Autor, Destinatários, Data, Objetivo do Autor, Esboço Geral).
 - Extensão aproximada: 7 a 12 parágrafos. A seção deve continuar sendo uma linha do tempo (sem entrar em administração interna ou eventos específicos), mas isso não significa menos autores, menos citações diretas ou menos parágrafos do que as demais seções — a diferença desta seção para as outras é de **escopo de conteúdo**, não de tamanho ou riqueza de fontes.
-"""
+```
 
 ## Observações
 Esta seção é deliberadamente restrita em **escopo** (linha do tempo macro, sem administração interna nem eventos específicos) em relação a "06-circunstancias-historicas", mas não em **volume** — mantenha o mesmo padrão de 7+ autores e 4+ citações diretas das demais seções analíticas. Se o resultado vier curto ou raso, peça para desenvolver mais dentro do mesmo escopo (mais propostas de periodização, mais nuances na delimitação do período), em vez de aceitar uma versão enxuta demais.

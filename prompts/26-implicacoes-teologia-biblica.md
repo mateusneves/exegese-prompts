@@ -10,7 +10,7 @@ Teologias bíblicas (ex.: Waltke, Kaiser, Groningen), comentários bíblicos, ob
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Implicações para a Teologia Bíblica"** de um trabalho de exegese sobre a perícope **[PASSAGEM]**, do livro de **[LIVRO]**.
 
 A seção deve conter:
@@ -26,7 +26,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa.
 - Cite passagens bíblicas específicas (referências de capítulo e versículo) que ilustrem a conexão temática entre a perícope e o restante do cânon.
 - Extensão aproximada: 7 a 12 parágrafos.
-"""
+```
 
 ## Observações
 Esta seção difere da "Teologia Sistemática" por seu enfoque: aqui o interesse é como o tema se desenvolve *ao longo da história da revelação* (progressão através dos Testamentos), não como ele se encaixa em categorias doutrinárias organizadas topicamente.

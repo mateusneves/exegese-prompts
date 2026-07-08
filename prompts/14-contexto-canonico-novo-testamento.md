@@ -10,7 +10,7 @@ Comentários bíblicos, manuais bíblicos, introduções ao Antigo/Novo Testamen
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Contexto Canônico — Novo Testamento"** de um trabalho de exegese sobre a perícope **[PASSAGEM]**, do livro de **[LIVRO]**.
 
 A seção deve conter:
@@ -26,7 +26,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT.
 - Liste as referências neotestamentárias de forma explícita (livro, capítulo, versículo) ao longo do texto.
 - Extensão aproximada: 7 a 12 parágrafos.
-"""
+```
 
 ## Observações
 Se o livro em estudo já for do próprio Novo Testamento, adapte mentalmente esta seção para tratar de como a perícope foi recebida, citada ou desenvolvida por outros livros do NT (por exemplo, Atos ou epístolas posteriores), ou de seu lugar dentro da teologia neotestamentária mais ampla.

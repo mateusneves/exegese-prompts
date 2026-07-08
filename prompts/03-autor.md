@@ -10,7 +10,7 @@ Introduções ao Antigo/Novo Testamento (Archer Jr., Dillard & Longman III, Cars
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Autor"** de um trabalho de exegese sobre o livro de **[LIVRO]**, perícope em estudo: **[PASSAGEM]**.
 
 A seção deve conter:
@@ -27,7 +27,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT para cada autor/obra mencionado.
 - Se as fontes disponíveis não tratarem de debate de autoria para este livro (ou seja, a autoria for consensual e sem controvérsia relevante nas fontes), diga isso e concentre a seção na biografia e no perfil do autor.
 - Extensão aproximada: 7 a 12 parágrafos, a depender da complexidade do debate de autoria encontrado nas fontes.
-"""
+```
 
 ## Observações
 Se o livro em estudo for do Novo Testamento com autoria paulina disputada (ex.: Efésios, Colossenses, Pastorais), este prompt naturalmente abordará os "critérios de autenticidade" discutidos em introduções ao NT — apenas garanta que essas obras estejam carregadas no notebook.

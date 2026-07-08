@@ -7,6 +7,7 @@
 
 ## Prompt (copie e cole no ChatGPT ou Claude)
 
+```text
 URL: https://www.stepbible.org/?q=version=VarApp@version=THGNT@reference=[LIVRO].[CAPÍTULO].[VERSÍCULO-INICIAL]-[VERSÍCULO-FINAL]&options=GNHVU&pos=1
 
 
@@ -66,3 +67,4 @@ Requisitos de formato:
 - As tabelas devem estar em formato Markdown simples (para copiar depois para o Word).
 - Redija os parágrafos de discussão e síntese em prosa acadêmica corrida, em português, terceira pessoa, com citação em nota de rodapé ABNT referenciando o StepBible como fonte dos dados do aparato (ex.: STEPBIBLE. New Testament Manuscript Variant Apparatus (VarApp). Disponível em: <URL usada>. Acesso em DD mês. AAAA.).
 - Se a fonte não carregar dados para algum versículo da perícope, diga isso explicitamente em vez de inventar uma variante.
+```

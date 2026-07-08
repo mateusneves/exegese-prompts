@@ -10,7 +10,7 @@ A "Mensagem para a Época da Escrita" já produzida (prompt 23), teologias bíbl
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente na "Mensagem para a Época da Escrita" já produzida para a perícope **[PASSAGEM]** (cole-a aqui como referência) e nas demais fontes carregadas neste notebook, redija a seção **"Mensagem para Hoje"**.
 
 A seção deve:
@@ -27,7 +27,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT.
 - Evite aplicações genéricas ("devemos amar mais", "precisamos orar mais") desconectadas do conteúdo específico da perícope — a aplicação deve decorrer diretamente da mensagem original e dos princípios teológicos nela contidos.
 - Extensão aproximada: 7 a 12 parágrafos.
-"""
+```
 
 ## Observações
 Esta seção é o coração do "movimento de ida e volta" (espiral hermenêutica de Osborne) — revise-a com atenção especial para garantir que a aplicação proposta realmente decorra do texto, e não de uma ideia pré-concebida do pregador.

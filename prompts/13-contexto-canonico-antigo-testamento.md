@@ -10,7 +10,7 @@ Introduções ao Antigo Testamento, comentários bíblicos, manuais bíblicos, o
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Contexto Canônico — Antigo Testamento"** de um trabalho de exegese sobre a perícope **[PASSAGEM]**, do livro de **[LIVRO]**.
 
 A seção deve conter:
@@ -27,7 +27,7 @@ Requisitos de formato:
 - Cite passagens específicas (referências de capítulo e versículo) sempre que houver uma citação ou alusão textual entre livros do Antigo Testamento.
 - Se o livro em estudo for do Novo Testamento, adapte a seção para tratar de como o Antigo Testamento é usado, citado ou pressuposto pela perícope em estudo (ao invés de "reconhecimento posterior").
 - Extensão aproximada: 7 a 12 parágrafos.
-"""
+```
 
 ## Observações
 Para livros do Novo Testamento, esta seção normalmente se transforma em uma análise de citações e alusões veterotestamentárias presentes na perícope — o prompt já contempla essa adaptação.

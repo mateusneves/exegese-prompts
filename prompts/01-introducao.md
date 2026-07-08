@@ -11,7 +11,7 @@ Este prompt não depende de fontes externas específicas — ele sintetiza o que
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Introdução"** de um trabalho de exegese bíblica sobre a perícope **[PASSAGEM]**, do livro de **[LIVRO]**.
 
 A introdução deve conter, nesta ordem, em prosa corrida (sem subtítulos):
@@ -25,7 +25,7 @@ Requisitos de formato:
 - Cite em nota de rodapé, no padrão ABNT, a fonte usada para a bíblia/versão citada no corpo do texto, se houver referência direta a uma tradução específica.
 - Não invente dados que não estejam nas fontes disponíveis; se o método ou o tema central não estiverem explícitos nas fontes, generalize com cautela a partir do que a perícope e o contexto do livro permitem inferir.
 - Extensão aproximada: 3 parágrafos.
-"""
+```
 
 ## Observações
 Esta é a única seção que deve ser gerada por último, pois depende do conteúdo das demais. Ao rodar este prompt, cole como contexto adicional (na mesma conversa do NotebookLM) um resumo das seções já produzidas, para que a IA consiga sintetizar com precisão o "roteiro do trabalho".

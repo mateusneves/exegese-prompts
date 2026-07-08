@@ -15,7 +15,7 @@ A tradução literal já produzida (prompt 17) ou o texto da perícope em uma tr
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base no texto em português da perícope **[PASSAGEM]** abaixo (tradução literal ou de sua preferência), produza a seção **"Esboço em Português"** em formato de **código Mermaid** (diagrama do tipo `flowchart`).
 
 Texto da perícope em português (cole aqui, versículo por versículo):
@@ -29,13 +29,13 @@ Construa um fluxograma de fluxo lógico/retórico da perícope, no nível de cl�
 4. **Sequência** (uma cláusula leva à seguinte): seta simples — `v10a --> v10b`.
 5. **Paralelismo** (par de cláusulas paralelas, identificado por você a partir da estrutura retórica do texto em português): seta dupla — `v10c <--> v10d`.
 6. **Agrupamento** (lista de itens sob uma afirmação governante): sempre que dois ou mais elementos coordenados ("e"/"ou") dependerem da mesma afirmação, verbo ou preposição governante, separe cada elemento em seu próprio nó dentro de um `subgraph` — nunca concatene os itens no texto de um único nó, mesmo com apenas dois itens. Por exemplo, "enviando o seu próprio Filho em semelhança de carne pecaminosa e no tocante ao pecado" deve virar um nó "enviando o seu próprio Filho" apontando para um subgraph com dois nós irmãos ("em semelhança de carne pecaminosa" e "no tocante ao pecado"):
-```
+
 v11a["Estou farto / não me agrado"] --> lista11
 subgraph lista11 [" "]
     v11i1["dos holocaustos de carneiros"]
     v11i2["e da gordura de animais cevados"]
 end
-```
+
 7. **Continuidade à distância** (uma afirmação distante continua conectada a algo várias linhas depois): use seta pontilhada com rótulo — `v11a -. "continua até v13" .-> v13e`.
 8. Para identificar em que versículo cada nó está, adicione um comentário Mermaid antes do bloco correspondente: `%% Versículo 10`, `%% Versículo 11`, etc.
 
@@ -46,7 +46,7 @@ Requisitos de formato:
 - Gere **apenas o código Mermaid válido**, sem texto explicativo antes ou depois do bloco de código, para que eu possa copiar e colar diretamente em um visualizador.
 - **Antes de finalizar, faça uma autoverificação:** revise o texto em busca de orações causais/finais/condicionais/concessivas fundidas com a anterior no mesmo nó, e de listas de dois ou mais itens coordenados que não tenham sido decompostas em subgraph — corrija antes de prosseguir. Confirme também que o código usa pelo menos uma seta dupla `<-->` (paralelismo), pelo menos um `subgraph` (agrupamento) e pelo menos uma seta pontilhada de continuidade à distância (`-.->`). Se algum desses três elementos genuinamente não se aplicar a esta perícope específica, não o omita em silêncio — inclua um comentário Mermaid (`%%`) logo antes do trecho correspondente, justificando por que esse recurso não foi usado (ex.: `%% Não há paralelismo sinonímico claro entre os versículos 12-13`). Não force um paralelismo, agrupamento ou continuidade que não exista no texto só para satisfazer esta verificação.
 - Ao final, como comentário Mermaid (`%%`), adicione uma frase explicando o principal padrão estrutural identificado no conjunto da perícope.
-"""
+```
 
 ## O que fazer com o resultado
 

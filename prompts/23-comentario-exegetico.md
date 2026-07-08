@@ -10,7 +10,7 @@ Comentários bíblicos do livro em estudo (o máximo possível de comentaristas 
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Comentário Exegético"** de um trabalho de exegese sobre a perícope **[PASSAGEM]**, do livro de **[LIVRO]**.
 
 Para cada versículo (ou, quando um versículo for muito extenso, para cada frase relevante), em ordem:
@@ -27,7 +27,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT para cada autor e obra citados.
 - Organize a seção estritamente na ordem dos versículos da perícope, sem pular nenhum.
 - Extensão aproximada: dois a quatro parágrafos substanciais por versículo (mais, se a complexidade interpretativa e o material disponível permitirem) — para perícopes curtas, isso deve ainda assim resultar em, no mínimo, 7 parágrafos no total considerando todos os versículos.
-"""
+```
 
 ## Observações
 Esta costuma ser a seção mais extensa e mais central do trabalho — reserve o maior número possível de comentários bíblicos de qualidade no notebook para esta seção específica.

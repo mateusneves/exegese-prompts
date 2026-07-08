@@ -10,7 +10,7 @@ Obras de teologia pastoral e espiritualidade cristã (ex.: Ryle, Watson, Hoekema
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Implicações para a Teologia Pastoral"** de um trabalho de exegese sobre a perícope **[PASSAGEM]**, do livro de **[LIVRO]**.
 
 A seção deve conter:
@@ -26,7 +26,7 @@ Requisitos de formato:
 - Nomeie explicitamente o autor no corpo do texto (não apenas na nota de rodapé) sempre que atribuir uma afirmação a ele — use fórmulas como "Segundo [Autor]...", "[Autor] afirma que...", "Conforme [Autor]...". Ao citar o mesmo autor em frases seguidas, retome o nome dele (ex.: "[Autor] continua afirmando...") em vez de deixar a frase seguinte sem sujeito, apoiada só na nota de rodapé.
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT.
 - Extensão aproximada: 7 a 12 parágrafos.
-"""
+```
 
 ## Observações
 Esta seção prepara diretamente o terreno para o "Esboço do Sermão" (próximo prompt) — mantenha as ideias aqui desenvolvidas disponíveis para reaproveitar como material de aplicação no esboço homilético.

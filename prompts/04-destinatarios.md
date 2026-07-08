@@ -10,7 +10,7 @@ Comentários bíblicos, introduções ao Antigo/Novo Testamento.
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Destinatários"** de um trabalho de exegese sobre o livro de **[LIVRO]**, perícope em estudo: **[PASSAGEM]**.
 
 A seção deve conter:
@@ -26,7 +26,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT.
 - Cite passagens bíblicas específicas (com referência de capítulo e versículo) que sirvam de evidência textual para a identificação dos destinatários.
 - Extensão aproximada: 7 a 12 parágrafos.
-"""
+```
 
 ## Observações
 Para epístolas do Novo Testamento, esta seção tende a ser mais direta (destinatário nomeado na saudação). Para livros proféticos ou históricos do Antigo Testamento, é comum haver mudança de destinatário entre seções do livro — o prompt já contempla esse caso.

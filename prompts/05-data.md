@@ -10,7 +10,7 @@ Introduções ao Antigo/Novo Testamento, comentários bíblicos, obras de histó
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Data"** de um trabalho de exegese sobre o livro de **[LIVRO]**, perícope em estudo: **[PASSAGEM]**.
 
 A seção deve conter:
@@ -27,7 +27,7 @@ Requisitos de formato:
 - Sempre que citar uma data específica proposta por um autor, indique a página da obra onde ela aparece.
 - Se as fontes disponíveis não trouxerem divergência sobre a data (data consensual), apresente a data aceita e sua justificativa, sem forçar um debate inexistente.
 - Extensão aproximada: 7 a 12 parágrafos.
-"""
+```
 
 ## Observações
 Livros com datação disputada (proféticos do AT, epístolas pastorais, apocalípticos) tendem a gerar uma seção mais longa, com múltiplas datas propostas — o modelo desta biblioteca (Isaías) traz um bom exemplo desse tipo de comparação.

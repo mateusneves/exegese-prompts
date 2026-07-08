@@ -10,7 +10,7 @@ Teologias sistemáticas (ex.: Berkhof, Grudem, Sproul), Confissão de Fé de Wes
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Implicações para a Teologia Sistemática"** de um trabalho de exegese sobre a perícope **[PASSAGEM]**, do livro de **[LIVRO]**.
 
 A seção deve conter:
@@ -26,7 +26,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT.
 - Ao citar uma confissão de fé ou catecismo, use o formato de citação de documentos confessionais já empregado nas fontes (ex.: "CONFISSÃO DE FÉ DE WESTMINSTER. Edição. Cidade: Editora, Ano, p. XX." ou "O CATECISMO MAIOR DE WESTMINSTER. Cidade: Editora, Ano.").
 - Extensão aproximada: 7 a 12 parágrafos.
-"""
+```
 
 ## Observações
 Se as fontes carregadas não incluírem confissões de fé específicas da tradição do usuário, omita essa parte e concentre-se nas teologias sistemáticas disponíveis, sem inventar referências confessionais.

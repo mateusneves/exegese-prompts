@@ -10,7 +10,7 @@ Comentários bíblicos, introduções ao Antigo/Novo Testamento, teologias bíbl
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente nas fontes carregadas neste notebook, redija a seção **"Objetivo do Autor"** de um trabalho de exegese sobre o livro de **[LIVRO]**, perícope em estudo: **[PASSAGEM]**.
 
 A seção deve conter:
@@ -26,7 +26,7 @@ Requisitos de formato:
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT.
 - Relacione o objetivo geral do livro, quando possível, ao papel específico que a perícope [PASSAGEM] desempenha dentro desse propósito maior.
 - Extensão aproximada: 7 a 12 parágrafos.
-"""
+```
 
 ## Observações
 Esta seção prepara o terreno para a seção "Mensagem para Hoje" mais adiante — vale a pena manter coerência de linguagem entre as duas quando for revisar o trabalho final.

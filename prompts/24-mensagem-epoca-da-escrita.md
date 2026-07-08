@@ -10,7 +10,7 @@ O comentário exegético já produzido (prompt 22), comentários bíblicos, teol
 
 ## Prompt (copie e cole no NotebookLM)
 
-"""
+```text
 Com base exclusivamente no comentário exegético já produzido para a perícope **[PASSAGEM]** (cole-o aqui como referência) e nas demais fontes carregadas neste notebook, redija a seção **"Mensagem para a Época da Escrita"**.
 
 Sintetize, em prosa corrida, qual era a mensagem central que a perícope [PASSAGEM] comunicava aos seus primeiros ouvintes/leitores — ou seja, decodifique o texto como um documento dirigido a uma audiência histórica específica, antes de qualquer aplicação ao leitor contemporâneo. A síntese deve:
@@ -25,7 +25,7 @@ Requisitos de formato:
 - Nomeie explicitamente o autor no corpo do texto (não apenas na nota de rodapé) sempre que atribuir uma afirmação a ele — use fórmulas como "Segundo [Autor]...", "[Autor] afirma que...", "Conforme [Autor]...". Ao citar o mesmo autor em frases seguidas, retome o nome dele (ex.: "[Autor] continua afirmando...") em vez de deixar a frase seguinte sem sujeito, apoiada só na nota de rodapé.
 - Redija em prosa acadêmica corrida, em português, terceira pessoa, com citações em nota de rodapé no padrão ABNT quando a síntese se apoiar diretamente em uma afirmação de um comentarista específico.
 - Extensão aproximada: 2 a 3 parágrafos.
-"""
+```
 
 ## Observações
 Esta seção é a "dobradiça" entre o Estudo Textual e o Estudo Teológico: ela fecha a análise histórico-gramatical e prepara o terreno para a aplicação contemporânea que virá na seção seguinte (Mensagem para Hoje).
