@@ -2,16 +2,16 @@
 
 **Localização no trabalho:** Seção 4.5.2 — Esboço em Português
 
-## O que este prompt gera (e como se relaciona com o prompt 20)
+## O que este prompt gera (e como se relaciona com o prompt 21)
 
-O mesmo tipo de fluxograma lógico/retórico do prompt 20 (sequência, paralelismo, agrupamento de listas coordenadas, continuidade entre versículos distantes), mas construído **de forma independente, direto sobre o texto em português** — não é uma tradução mecânica do resultado do prompt 20. A IA deve analisar a sintaxe e a retórica da tradução portuguesa por si mesma, e não apenas substituir palavras hebraicas/gregas por palavras portuguesas em uma estrutura já pronta.
+O mesmo tipo de fluxograma lógico/retórico do prompt 21 (sequência, paralelismo, agrupamento de listas coordenadas, continuidade entre versículos distantes), mas construído **de forma independente, direto sobre o texto em português** — não é uma tradução mecânica do resultado do prompt 21. A IA deve analisar a sintaxe e a retórica da tradução portuguesa por si mesma, e não apenas substituir palavras hebraicas/gregas por palavras portuguesas em uma estrutura já pronta.
 
-Isso é proposital: como o português tem ordem de palavras e estrutura de frase diferentes do hebraico/grego, a melhor forma de garantir que o diagrama em português seja natural e correto é a IA analisá-lo diretamente, e não herdar cegamente decisões estruturais tomadas para o idioma original. Depois de gerar os dois esboços (20 e 21), compare-os: se as relações de paralelismo e agrupamento identificadas forem semelhantes nos dois, isso é uma boa confirmação cruzada da análise; se forem diferentes em algum ponto, vale revisar qual dos dois capturou melhor a lógica do texto.
+Isso é proposital: como o português tem ordem de palavras e estrutura de frase diferentes do hebraico/grego, a melhor forma de garantir que o diagrama em português seja natural e correto é a IA analisá-lo diretamente, e não herdar cegamente decisões estruturais tomadas para o idioma original. Depois de gerar os dois esboços (21 e 22), compare-os: se as relações de paralelismo e agrupamento identificadas forem semelhantes nos dois, isso é uma boa confirmação cruzada da análise; se forem diferentes em algum ponto, vale revisar qual dos dois capturou melhor a lógica do texto.
 
-**Esta versão do prompt também pede a saída em [Mermaid](https://mermaid.js.org)**, para gerar um fluxograma visual de verdade no mermaid.live, assim como o prompt 20.
+**Esta versão do prompt também pede a saída em [Mermaid](https://mermaid.js.org)**, para gerar um fluxograma visual de verdade no mermaid.live, assim como o prompt 21.
 
 ## Fontes recomendadas para esta seção
-A tradução literal já produzida (prompt 17) ou o texto da perícope em uma tradução de sua preferência. Não é necessário colar o resultado do prompt 20.
+A tradução literal já produzida (prompt 17) ou o texto da perícope em uma tradução de sua preferência. Não é necessário colar o resultado do prompt 21.
 
 ## Prompt (copie e cole no NotebookLM)
 
@@ -56,4 +56,4 @@ Requisitos de formato:
 4. Quando o diagrama estiver correto, use o botão de exportação do mermaid.live (canto superior direito) para baixar como PNG ou SVG, e insira essa imagem no seu documento Word na seção 4.5.2.
 
 ## Observações
-Rode este prompt e o 20 em momentos diferentes (não precisa ser em sequência) e compare os dois diagramas renderizados ao final, em vez de gerar um a partir do outro. Pequenos ajustes manuais de sintaxe antes de renderizar são normais — o valor do prompt está na IA identificar corretamente a lógica das conexões, não na sintaxe Mermaid perfeita de primeira.
+Rode este prompt e o 21 em momentos diferentes (não precisa ser em sequência) e compare os dois diagramas renderizados ao final, em vez de gerar um a partir do outro. Pequenos ajustes manuais de sintaxe antes de renderizar são normais — o valor do prompt está na IA identificar corretamente a lógica das conexões, não na sintaxe Mermaid perfeita de primeira.
